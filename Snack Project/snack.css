@@ -1,0 +1,79 @@
+.welcome {
+    color: black;
+    font-weight: bold;
+    float: left;
+    vertical-align: center;
+    text-decoration: lime dashed underline;
+    -webkit-text-stroke: 1px lime;
+    font-family: fantasy;
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+#logo {
+    height: 100px;
+    width: 100px;
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+
+#header {
+    text-align: center;
+    font-family: Arial, Verdana, sans-serif;
+    background-image: url(pot-background.jpg);
+}
+
+#chips {
+    margin-bottom: 20px;
+}
+
+img.snackImage {
+    height: 170px;
+    width: 140px;
+    align-self: center;
+}
+
+#mtnDew {
+    height: 170px;
+    width: 165px;
+    align-self: center;
+}
+
+#bajaBlast {
+    height: 170px;
+    width: 90px;
+    align-self: center;
+}
+
+#cokeClassic {
+    height: 170px;
+    width: 110px;
+    align-self: center
+}
+
+#vanillaCoke {
+    height: 170px;
+    width: 165px;
+    align-self: center;
+}
+
+#amount {
+    width: 25px;
+}
+
+#items {
+    text-align: center;
+}
+
+img.sodaImage {
+    height: 150px;
+    width: 150px;
+    align-self: center;
+}
+
+#soda {
+    margin-bottom: 20px;
+}
+
+
+

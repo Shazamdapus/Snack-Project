@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<head>
+    <title>Snack Hub</title>
+    <link rel="stylesheet" href="960.css"> <!-- grind system style sheet -->
+    <link rel="stylesheet" href="snack.css">
+</head>
+<body>
+    <div class="container_12 clearfix">
+        <div id="header" class="grid_12">
+            <img src="marioLogo.png" id="logo">
+            <h1 class="welcome">Welcome To Munchie Central!</h1>
+        </div>
+    <!-- create form with images to add items to cart -->
+    <div id="chips" class="grid_3">
+        <form id="items">
+            <label id="doritos">Nacho Cheese Doritos</label>
+            <br>
+            <img id="doritos" class="snackImage" src="doritos-nacho-cheese.png"></img>
+            <br>
+            <label>Amount: </label>
+            <input id="nachoCheese" type="number" min=0>
+            <button type="button" onclick="addNacho();" id="addButton">Add To Cart</button>
+        </form>
+    </div>
+
+    <div id="chips" class="grid_3">
+        <form id="items">
+            <label id="doritos">Blaze Doritos</label>
+            <br>
+            <img id="doritos" class="snackImage" src="new-blaze.png"></img>
+            <br>
+            <label>Amount: </label>
+            <input id="blazeDoritos" type="number">
+            <button type="button" onclick="addBlaze();" id="addButton">Add To Cart</button>
+        </form>
+    </div>
+
+    <div id="chips" class="grid_3">
+        <form id="items">
+            <label id="lays">Lay's Classic</label>
+            <br>
+            <img id="lays" class="snackImage" src="lays-classic.png"></img>
+            <br>
+            <label>Amount: </label>
+            <input id="classicLays" type="number">
+            <button type="button" onclick="addClassic();" id="addButton">Add To Cart</button>
+        </form>
+    </div>
+
+    <div id="chips" class="grid_3">
+        <form id="items">
+            <label id="lays">Baked Lay's</label>
+            <br>
+            <img id="lays" class="snackImage" src="baked lays.png"></img>
+            <br>
+            <label>Amount: </label>
+            <input id="bakedLays" type="number">
+            <button type="button" onclick="addBaked();" id="addButton">Add To Cart</button>
+        </form>
+    </div>
+    
+    <div id="soda" class="grid_3">
+        <form id="items">
+            <label id="mtnDew">Mountain Dew</label>
+            <br>
+            <img id="mtnDew" class="sodaImage" src="mtndew.png">
+            <br>
+            <label>Amount: </label>
+            <input id="mtnDew" type="number">
+            <button type="button" onclick="addMtnDew();" id="addButton">Add To Cart</button>
+        </form>
+    </div>
+
+    <div id="soda" class="grid_3">
+        <form id="items">
+            <label id="bajaBlast">Baja Blast</label>
+            <br>
+            <img id="bajaBlast" class="sodaImage" src="bajaBlast.png">
+            <br>
+            <label>Amount: </label>
+            <input id="bajaBlast" type="number">
+            <button type="button" onclick="addBajaBlast();" id="addButton">Add To Cart</button>
+        </form>
+    </div>
+
+    <div id="soda" class="grid_3">
+        <form id="items">
+            <label id="cokeClassic">Coke Classic</label>
+            <br>
+            <img id="cokeClassic" class="sodaImage" src="cokeClassic.png">
+            <br>
+            <label>Amount: </label>
+            <input id="classicCoke" type="number">
+            <button type="button" onclick="addCoke();" id="addButton">Add To Cart</button>
+        </form>
+    </div>
+
+    <div id="soda" class="grid_3">
+        <form id="items">
+            <label id="vanillaCoke">Vanilla Coke</label>
+            <br>
+            <img id="vanillaCoke" class="sodaImage" src="vanillaCoke.png">
+            <br>
+            <label>Amount: </label>
+            <input id="vanillaCoke" type="number">
+            <button type="button" onclick="addVanillaCoke();" id="addButton">Add To Cart</button>
+        </form>
+    </div>
+    
+
+
+    <!-- output a total price for the snacks -->
+    
+    <!-- link to page for checkout -->
+
+    </div>
+
+    <script src="snack.js"></script>
+</body>
